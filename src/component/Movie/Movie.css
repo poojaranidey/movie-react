@@ -1,0 +1,54 @@
+/* movies style  */
+.movies-container{
+    width: 72%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-gap: 2rem;
+    gap: 1rem; 
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+
+}
+.single-movie:hover {
+    background-color: lightgray;
+    color: black;
+    border-radius: 15px;
+    transition: all .6s linear;
+}
+.movie-image{
+    width: fit-content;
+    border-radius: 15px;
+    margin-top:2px;
+
+}
+.movie-detail{
+    padding: 10px;
+}
+.add-list-btn{
+    font-size: 17px;
+    padding: 8px 15px;  
+    border: 1px solid #ff8906;
+    border-radius: 7px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.donate-btn{
+    background-color: #ff8906;
+    font-size: 17px;
+    padding: 8px 15px;
+    border: 1px solid #ff8906;
+    border-radius: 7px;
+    color: #fffffe;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+

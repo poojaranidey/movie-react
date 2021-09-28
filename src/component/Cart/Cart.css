@@ -1,0 +1,20 @@
+/* for donation scart and btn style  */
+.Donate-cart{
+    position:sticky;
+    background-color: black;
+    color:white;
+    margin:20px;
+    padding:20px;
+    border-radius: 15px;
+}
+.Donate-btn, .watch-movie-btn{
+    background-color: #ff8906;
+    font-size: 17px;
+    padding: 8px 15px;
+    border: 1px solid #ff8906;
+    border-radius: 7px;
+    color: #fffffe;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
